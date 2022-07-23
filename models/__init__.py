@@ -1,0 +1,6 @@
+from models.Models import FCNN, SimpleCNN, ResCNN
+from models.CrossDomainModels import CrossDomainFCNN, DualTimeFCNN, CrossDomainSimpleCNN, DualTimeSimpleCNN, CrossDomainResCNN, DualTimeResCNN
+
+from models.MultichannelModels import MultichannelFCNN, MultichannelSimpleCNN, MultichannelResCNN
+from models.MultichannelModels import MultichannelCrossDomainFCNN, MultichannelCrossDomainSimpleCNN, MultichannelCrossDomainResCNN
+from models.MultichannelModels import MultichannelDualTimeFCNN, MultichannelDualTimeSimpleCNN, MultichannelDualTimeResCNN
